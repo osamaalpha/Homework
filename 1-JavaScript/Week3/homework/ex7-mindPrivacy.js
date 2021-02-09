@@ -25,10 +25,27 @@ const employeeRecords = [
     salary: 60000,
   },
 ];
-
-function filterPrivateData(/* parameter(s) go here */) {
-  // TODO complete this function
+// i tried 2 ways both give the right output but it doesn't path the npm test any way
+function filterPrivateData(employeeRecords){
+  const newArr = [];
+  for(let i=0;i<employeeRecords.length;i++){
+    newArr.push((({name,occupation,gender})=>({name,occupation,gender}))(employeeRecords[i]));
+  }
+  return newArr
 }
+// that is the second way
+/*
+function filterPrivateData(employeeRecords) {
+  const newArr=[]
+  let pr =['email','salary']
+  for(let i=0;i<employeeRecords.length;i++){
+    newArr.push(Object.keys(employeeRecords[i])
+    .filter(key => !pr.includes(key))(({name,occupation,gender})=>({name,occupation,gender}))(employeeRecords[i]));
+  return newArr
+  }
+ */
+
+
 
 console.log(filterPrivateData(employeeRecords));
 

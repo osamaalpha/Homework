@@ -20,10 +20,23 @@ you have more than 3 items in your shopping cart the first item gets taken out.
    argument. Use `console.log` to display the results.
 -----------------------------------------------------------------------------*/
 const shoppingCart = ['bananas', 'milk'];
+function addToShoppingCart(groceryItem) {
+  let list=''
+  shoppingCart.push(groceryItem);
+  if (shoppingCart.length>3){
+    shoppingCart.shift();
+  }
+  for (const n of shoppingCart){
+    list+=', '+n;
+  }
+  const message = `You bought${list}!`;
+  return message;
+  
+  
+  }
+  
+ 
 
-function addToShoppingCart(/* parameters go here */) {
-  // TODO complete this function
-}
 
 addToShoppingCart('chocolate'); // Returns "You bought bananas, milk, chocolate!"
 addToShoppingCart('waffles'); // Returns "You bought milk, chocolate, waffles!"
