@@ -1,0 +1,7 @@
+
+*** Spell Checker Report ***
+
+ex3-tellFortune.js:29:24 - Unknown word (Hannan)
+ex3-tellFortune.js:29:39 - Unknown word (Asel)
+ex3-tellFortune.js:29:46 - Unknown word (Mila)
+ex3-tellFortune.js:29:53 - Unknown word (Marim)
