@@ -19,12 +19,18 @@ instead!
 3. Call the function once, giving it the object `cartForParty` as an argument.
    Use `console.log` to display the result.
 -----------------------------------------------------------------------------*/
-const cartForParty = {
-  // TODO complete this function
+const cartForParty = {chips:0.99 ,appel:1 ,orange:2,rice:5,mac:6
 };
 
-function calculateTotalPrice(/* TODO parameter(s) go here */) {
-  // TODO replace this comment with your code
+function calculateTotalPrice(cartObject) {
+  let amount=0;
+const values=Object.values(cartObject);
+  for(let i=0;i< values.length;i++){
+amount += values[i];
+  }
+ const message = `Total: €${amount}`;
+ return message;
+ 
 }
 
 // this is one example, you will need to write a different object
