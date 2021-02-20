@@ -1,0 +1,11 @@
+*** Unit Test Error Report ***
+
+- mondaysWorth should exist and be executable
+
+*** ESLint Report ***
+
+ex2-mondaysWorth.js
+  68:3  error  'computeEarnings' is not defined  no-undef
+
+✖ 1 problem (1 error, 0 warnings)
+
