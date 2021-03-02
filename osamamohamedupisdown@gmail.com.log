@@ -131,3 +131,66 @@ ex3-hijackLogo.js:12:2 - Unknown word (googlelogo)
 - catWalk should use `setInterval()`
 - catWalk should use `window.onload` or `window.addEventListener`
 
+2021-03-02 09:06:34 info: ----------------------------------------
+2021-03-02 09:06:34 info: >>> Running Unit Test `ex1-bookList` <<<
+2021-03-02 09:06:34 info: ----------------------------------------
+2021-03-02 09:09:52 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex1-bookList --silent false --verbose false --reporters="C:\users\osama\osamaalpha\Homework\test-runner\CustomReporter.js"
+Timeout - Async callback was not invoked within the 5000 ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 5000 ms timeout specified by jest.setTimeout.
+    at mapper (C:\Users\osama\osamaalpha\Homework\node_modules\jest-jasmine2\build\queueRunner.js:27:45)
+    at C:\Users\osama\osamaalpha\Homework\node_modules\jest-jasmine2\build\queueRunner.js:75:41
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+
+2021-03-02 09:10:19 error: *** ESLint Report ***
+
+ex1-bookList/index.js
+  83:7  error    'ulElement' is assigned a value but never used  no-unused-vars
+  85:2  warning  Remove commented-out code                       hyf/no-commented-out-code
+
+✖ 2 problems (1 error, 1 warning)
+
+
+2021-03-02 09:11:06 info: ----------------------------------------
+2021-03-02 09:11:06 info: >>> Running Unit Test `ex1-bookList` <<<
+2021-03-02 09:11:06 info: ----------------------------------------
+2021-03-02 09:11:43 error: *** Unit Test Error Report ***
+
+- Generated HTML HTML should be syntactically valid
+  inline
+    14:73   error  Element <img> is not permitted as content in <ul>  element-permitted-content
+    14:292  error  Element <img> is not permitted as content in <ul>  element-permitted-content
+    14:492  error  Element <img> is not permitted as content in <ul>  element-permitted-content
+  
+  ✖ 3 problems (3 errors, 0 warnings)
+  
+- Generated HTML should contain a <ul> with 3 <li> elements
+- Generated HTML should include an <li> with title and author for each book
+- Generated HTML should include an <img> element for each book
+
+2021-03-02 09:11:46 error: *** ESLint Report ***
+
+ex1-bookList/index.js
+  83:7  error    'ulElement' is assigned a value but never used  no-unused-vars
+  85:2  warning  Remove commented-out code                       hyf/no-commented-out-code
+
+✖ 2 problems (1 error, 1 warning)
+
+
+2021-03-02 09:27:46 info: ----------------------------------------
+2021-03-02 09:27:46 info: >>> Running Unit Test `ex1-bookList` <<<
+2021-03-02 09:27:46 info: ----------------------------------------
+2021-03-02 09:27:57 error: *** Unit Test Error Report ***
+
+- Generated HTML should contain a <ul> with 3 <li> elements
+- Generated HTML should include an <li> with title and author for each book
+- Generated HTML should include an <img> element for each book
+
+2021-03-02 09:28:00 error: *** ESLint Report ***
+
+ex1-bookList/index.js
+  87:2  warning  Remove commented-out code  hyf/no-commented-out-code
+
+✖ 1 problem (0 errors, 1 warning)
+
+

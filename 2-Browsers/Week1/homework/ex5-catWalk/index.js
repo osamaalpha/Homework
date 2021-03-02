@@ -40,6 +40,6 @@ function catWalk() {
  }
  }
  let timeUp=setInterval(catWalk,50)
-window.addEventListener("load",catWalk)
+ window.addEventListener("load",catWalk)
 
 // TODO execute `catWalk` when the browser has completed loading the page
