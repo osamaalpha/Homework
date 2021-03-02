@@ -1,0 +1,4 @@
+*** Unit Test Error Report ***
+
+- catWalk should use `setInterval()`
+- catWalk should use `window.onload` or `window.addEventListener`

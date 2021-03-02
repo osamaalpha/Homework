@@ -1,0 +1,74 @@
+{
+  "node": "v14.15.4",
+  "system": {
+    "manufacturer": "Dell Inc.",
+    "model": "Inspiron 5567"
+  },
+  "cpu": {
+    "manufacturer": "Intel®",
+    "brand": "Core™ i5-7200U",
+    "speed": 2.5
+  },
+  "memory": "8 GB",
+  "osInfo": {
+    "platform": "win32",
+    "distro": "Microsoft Windows 10 Home Single Language",
+    "release": "10.0.18362"
+  },
+  "blockDevices": [
+    {
+      "name": "C:",
+      "size": "983 GB",
+      "fsType": "ntfs",
+      "physical": "Local"
+    },
+    {
+      "name": "D:",
+      "size": "0 GB",
+      "fsType": "",
+      "physical": "CD/DVD"
+    },
+    {
+      "name": "E:",
+      "size": "20 GB",
+      "fsType": "cdfs",
+      "physical": "CD/DVD"
+    }
+  ],
+  "vscodeInfo": {
+    "version": "1.53.2",
+    "extensions": [
+      "CoenraadS.bracket-pair-colorizer",
+      "dbaeumer.vscode-eslint",
+      "esbenp.prettier-vscode",
+      "evgeniypeshkov.syntax-highlighter",
+      "formulahendry.code-runner",
+      "hdg.live-html-previewer",
+      "ritwickdey.LiveServer",
+      "streetsidesoftware.code-spell-checker",
+      "vscjava.vscode-java-debug"
+    ],
+    "userSettings": {
+      "window.zoomLevel": 0,
+      "cSpell.userWords": [
+        "Asel",
+        "Hannan",
+        "Marim",
+        "Mila",
+        "Osama",
+        "Pangram",
+        "ZOMG",
+        "aaaah",
+        "cdefg",
+        "desolc",
+        "erawe",
+        "fibo",
+        "hmmmmmmm",
+        "revresb",
+        "spacebar",
+        "strnumber",
+        "xtest"
+      ]
+    }
+  }
+}
