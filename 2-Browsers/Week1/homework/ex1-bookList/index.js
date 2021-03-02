@@ -20,6 +20,46 @@
 
 function createBookList(books) {
   // your code goes in here, return the ul element
+  books.forEach(element => {
+    const title=document.createElement("p")
+    const text=document.createTextNode( element.title+ ' '+element.author)
+    const list =document.createElement("li")
+    const unList =document.createElement("ul")
+    const image =document.createElement("img")
+    if(element.author==="Don Norman"){
+    image.src = "assets/the_design_of_everyday_things.jpg"
+    image.alt="the design of every things"
+    unList.appendChild(image)
+    }else if (element.alreadyRead) {
+      unList.style.backgroundColor="green"
+    }else{
+      unList.style.backgroundColor="red"
+    }
+    if(element.author==="Brian Christian"){
+      image.src = "assets/the_most_human_human.jpg"
+      image.alt="the most human human"
+      unList.appendChild(image)
+    }else if (element.alreadyRead) {
+      unList.style.backgroundColor="green"
+    }else{
+      unList.style.backgroundColor="red"
+    }
+    if(element.author==="Andrew Hunt"){
+      image.src = "assets/the_pragmatic_programmer.jpg"
+      image.alt ="the pragmatic programmer"
+      unList.appendChild(image)
+    }else if (element.alreadyRead) {
+      unList.style.backgroundColor="green"
+    }else{
+      unList.style.backgroundColor="red"
+    }
+    list.appendChild(title)
+    unList.appendChild(list)
+    title.appendChild(text)
+    unList.style.display="inline-grid"
+    unList.style.margin="20px"
+document.body.appendChild(unList)
+   } )
 }
 
 const myBooks = [
@@ -42,4 +82,4 @@ const myBooks = [
 
 const ulElement = createBookList(myBooks);
 
-// document.querySelector('#bookList').appendChild(ulElement);
+ //document.querySelector('#bookList').appendChild(ulElement);
