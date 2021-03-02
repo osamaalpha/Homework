@@ -19,6 +19,8 @@
 //cspell: enable
 
 function createBookList(books) {
+  const bookDiv =document.querySelector("#bookList")
+  bookDiv.style.padding="20px"
   // your code goes in here, return the ul element
   books.forEach(element => {
     const title=document.createElement("p")
@@ -29,7 +31,7 @@ function createBookList(books) {
     if(element.author==="Don Norman"){
     image.src = "assets/the_design_of_everyday_things.jpg"
     image.alt="the design of every things"
-    unList.appendChild(image)
+    bookDiv.appendChild(image)
     }else if (element.alreadyRead) {
       unList.style.backgroundColor="green"
     }else{
@@ -38,7 +40,7 @@ function createBookList(books) {
     if(element.author==="Brian Christian"){
       image.src = "assets/the_most_human_human.jpg"
       image.alt="the most human human"
-      unList.appendChild(image)
+      bookDiv.appendChild(image)
     }else if (element.alreadyRead) {
       unList.style.backgroundColor="green"
     }else{
@@ -47,7 +49,7 @@ function createBookList(books) {
     if(element.author==="Andrew Hunt"){
       image.src = "assets/the_pragmatic_programmer.jpg"
       image.alt ="the pragmatic programmer"
-      unList.appendChild(image)
+      bookDiv.appendChild(image)
     }else if (element.alreadyRead) {
       unList.style.backgroundColor="green"
     }else{
@@ -57,7 +59,7 @@ function createBookList(books) {
     unList.appendChild(list)
     title.appendChild(text)
     unList.style.display="inline-grid"
-    unList.style.margin="20px"
+    unList.style.margin="10px"
 document.body.appendChild(unList)
    } )
 }
@@ -80,6 +82,5 @@ const myBooks = [
   },
 ];
 
-const ulElement = createBookList(myBooks);
+createBookList(myBooks);
 
- //document.querySelector('#bookList').appendChild(ulElement);
