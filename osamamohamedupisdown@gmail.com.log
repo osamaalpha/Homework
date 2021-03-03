@@ -1,0 +1,306 @@
+2021-02-12 12:51:21 info: -------------------------------------------------
+2021-02-12 12:51:21 info: >>> Running Unit Test `ex1-doubleEvenNumbers` <<<
+2021-02-12 12:51:21 info: -------------------------------------------------
+2021-02-12 12:52:00 error: *** Unit Test Error Report ***
+
+
+
+2021-02-12 12:52:54 info: -------------------------------------------------
+2021-02-12 12:52:54 info: >>> Running Unit Test `ex1-doubleEvenNumbers` <<<
+2021-02-12 12:52:54 info: -------------------------------------------------
+2021-02-12 12:53:05 info: All unit tests passed.
+2021-02-12 12:53:08 info: All steps were completed successfully
+2021-02-12 01:24:50 info: --------------------------------------------
+2021-02-12 01:24:50 info: >>> Running Unit Test `ex2-mondaysWorth` <<<
+2021-02-12 01:24:50 info: --------------------------------------------
+2021-02-12 01:24:56 error: *** Unit Test Error Report ***
+
+- mondaysWorth should exist and be executable
+
+2021-02-12 01:24:57 error: *** ESLint Report ***
+
+ex2-mondaysWorth.js
+  47:7  error  Parsing error: Identifier 'earnings' has already been declared
+
+✖ 1 problem (1 error, 0 warnings)
+
+
+2021-02-12 01:27:54 info: --------------------------------------------
+2021-02-12 01:27:54 info: >>> Running Unit Test `ex2-mondaysWorth` <<<
+2021-02-12 01:27:54 info: --------------------------------------------
+2021-02-12 01:28:00 error: *** Unit Test Error Report ***
+
+- mondaysWorth should exist and be executable
+
+2021-02-12 01:28:01 error: *** ESLint Report ***
+
+ex2-mondaysWorth.js
+  47:7  error  Parsing error: Identifier 'earnings' has already been declared
+
+✖ 1 problem (1 error, 0 warnings)
+
+
+2021-02-12 01:28:58 info: --------------------------------------------
+2021-02-12 01:28:58 info: >>> Running Unit Test `ex2-mondaysWorth` <<<
+2021-02-12 01:28:58 info: --------------------------------------------
+2021-02-12 01:29:03 error: *** Unit Test Error Report ***
+
+- mondaysWorth should exist and be executable
+
+2021-02-12 01:29:05 error: *** ESLint Report ***
+
+ex2-mondaysWorth.js
+  68:3  error  'computeEarnings' is not defined  no-undef
+
+✖ 1 problem (1 error, 0 warnings)
+
+
+2021-02-12 02:44:55 info: --------------------------------------------
+2021-02-12 02:44:55 info: >>> Running Unit Test `ex3-lemonAllergy` <<<
+2021-02-12 02:44:55 info: --------------------------------------------
+2021-02-12 02:45:03 error: *** Unit Test Error Report ***
+
+- sanitizeFruitBasket should list the sanitized fruit basket
+  Expected: My mom bought me a fruit basket containing apple, grapefruit, banana, watermelon!
+  Received: My mom bought me a fruit basket, containing
+apple,grapefruit,banana,watermelon!
+
+2021-02-12 02:45:04 error: *** ESLint Report ***
+
+ex3-lemonAllergy.js
+  27:34  error  Expected '!==' and instead saw '!='  eqeqeq
+
+✖ 1 problem (1 error, 0 warnings)
+
+
+2021-02-12 02:49:02 info: --------------------------------------------
+2021-02-12 02:49:02 info: >>> Running Unit Test `ex3-lemonAllergy` <<<
+2021-02-12 02:49:02 info: --------------------------------------------
+2021-02-12 02:49:08 error: *** Unit Test Error Report ***
+
+- sanitizeFruitBasket should list the sanitized fruit basket
+  Expected: My mom bought me a fruit basket containing apple, grapefruit, banana, watermelon!
+  Received: My mom bought me a fruit basket, containing
+apple,grapefruit,banana,watermelon!
+
+2021-02-12 02:49:10 error: *** ESLint Report ***
+
+ex3-lemonAllergy.js
+  28:34  error  Expected '!==' and instead saw '!='  eqeqeq
+
+✖ 1 problem (1 error, 0 warnings)
+
+
+2021-02-12 03:11:19 info: --------------------------------------------
+2021-02-12 03:11:19 info: >>> Running Unit Test `ex3-lemonAllergy` <<<
+2021-02-12 03:11:19 info: --------------------------------------------
+2021-02-12 03:11:25 error: *** Unit Test Error Report ***
+
+- sanitizeFruitBasket should list the sanitized fruit basket
+  Expected: My mom bought me a fruit basket containing apple, grapefruit, banana, watermelon!
+  Received: My mom bought me a fruit basket, containing apple,grapefruit,banana,watermelon!
+
+2021-02-12 03:11:27 error: *** ESLint Report ***
+
+ex3-lemonAllergy.js
+  28:34  error  Expected '!==' and instead saw '!='  eqeqeq
+
+✖ 1 problem (1 error, 0 warnings)
+
+
+2021-02-12 03:30:33 info: --------------------------------------------
+2021-02-12 03:30:33 info: >>> Running Unit Test `ex3-lemonAllergy` <<<
+2021-02-12 03:30:33 info: --------------------------------------------
+2021-02-12 03:30:39 error: *** Unit Test Error Report ***
+
+- sanitizeFruitBasket should list the sanitized fruit basket
+  Expected: My mom bought me a fruit basket containing apple, grapefruit, banana, watermelon!
+  Received: My mom bought me a fruit basket containing  apple,grapefruit,banana,watermelon!
+
+2021-02-12 03:30:41 error: *** ESLint Report ***
+
+ex3-lemonAllergy.js
+  28:34  error  Expected '!==' and instead saw '!='  eqeqeq
+
+✖ 1 problem (1 error, 0 warnings)
+
+
+2021-02-12 05:29:59 info: ------------------------------------------------
+2021-02-12 05:29:59 info: >>> Running Unit Test `ex4-publishSubscribe` <<<
+2021-02-12 05:29:59 info: ------------------------------------------------
+2021-02-12 05:30:09 error: *** Unit Test Error Report ***
+
+- createPublisher should notify all subscribers of any notification
+
+2021-02-12 05:30:12 error: *** Spell Checker Report ***
+
+ex4-publishSubscribe.js:81:10 - Unknown word (revresb)
+ex4-publishSubscribe.js:81:19 - Unknown word (desolc)
+ex4-publishSubscribe.js:81:30 - Unknown word (erawe)
+
+2021-02-12 05:59:54 info: ------------------------------------------------
+2021-02-12 05:59:54 info: >>> Running Unit Test `ex4-publishSubscribe` <<<
+2021-02-12 05:59:54 info: ------------------------------------------------
+2021-02-12 06:00:00 info: All unit tests passed.
+2021-02-12 06:00:03 error: *** Spell Checker Report ***
+
+ex4-publishSubscribe.js:82:10 - Unknown word (revresb)
+ex4-publishSubscribe.js:82:19 - Unknown word (desolc)
+ex4-publishSubscribe.js:82:30 - Unknown word (erawe)
+
+2021-02-13 01:15:46 info: --------------------------------------
+2021-02-13 01:15:46 info: >>> Running Unit Test `ex5-wallet` <<<
+2021-02-13 01:15:46 info: --------------------------------------
+2021-02-13 01:16:06 error: *** Unit Test Error Report ***
+
+
+
+2021-02-13 01:16:40 info: --------------------------------------
+2021-02-13 01:16:40 info: >>> Running Unit Test `ex5-wallet` <<<
+2021-02-13 01:16:40 info: --------------------------------------
+2021-02-13 01:16:51 error: *** Unit Test Error Report ***
+
+- wallet q1: At line 26, which variables are in the scope marked Closure?
+- wallet q2: What is in the Call Stack, from top to bottom?
+- wallet q3: What tooltip appears when hovering over the third debug button?
+- wallet q4: What is displayed in the console?
+- wallet q5: The owner of the wallet with insufficient funds is:
+
+2021-02-13 01:18:25 info: --------------------------------------
+2021-02-13 01:18:25 info: >>> Running Unit Test `ex5-wallet` <<<
+2021-02-13 01:18:25 info: --------------------------------------
+2021-02-13 01:18:31 error: *** Unit Test Error Report ***
+
+- wallet q1: At line 26, which variables are in the scope marked Closure?
+- wallet q2: What is in the Call Stack, from top to bottom?
+- wallet q3: What tooltip appears when hovering over the third debug button?
+- wallet q4: What is displayed in the console?
+- wallet q5: The owner of the wallet with insufficient funds is:
+
+2021-02-13 01:19:56 info: --------------------------------------
+2021-02-13 01:19:56 info: >>> Running Unit Test `ex5-wallet` <<<
+2021-02-13 01:19:56 info: --------------------------------------
+2021-02-13 01:20:04 error: *** Unit Test Error Report ***
+
+- wallet q1: At line 26, which variables are in the scope marked Closure?
+- wallet q2: What is in the Call Stack, from top to bottom?
+- wallet q3: What tooltip appears when hovering over the third debug button?
+- wallet q4: What is displayed in the console?
+- wallet q5: The owner of the wallet with insufficient funds is:
+
+2021-02-13 01:20:34 info: --------------------------------------
+2021-02-13 01:20:34 info: >>> Running Unit Test `ex5-wallet` <<<
+2021-02-13 01:20:34 info: --------------------------------------
+2021-02-13 01:20:50 error: *** Unit Test Error Report ***
+
+- wallet q2: What is in the Call Stack, from top to bottom?
+- wallet q3: What tooltip appears when hovering over the third debug button?
+- wallet q4: What is displayed in the console?
+- wallet q5: The owner of the wallet with insufficient funds is:
+
+2021-02-13 01:30:26 info: --------------------------------------
+2021-02-13 01:30:26 info: >>> Running Unit Test `ex5-wallet` <<<
+2021-02-13 01:30:26 info: --------------------------------------
+2021-02-13 01:30:31 error: *** Unit Test Error Report ***
+
+- wallet q2: What is in the Call Stack, from top to bottom?
+- wallet q3: What tooltip appears when hovering over the third debug button?
+- wallet q4: What is displayed in the console?
+- wallet q5: The owner of the wallet with insufficient funds is:
+
+2021-02-13 01:31:52 info: --------------------------------------
+2021-02-13 01:31:52 info: >>> Running Unit Test `ex5-wallet` <<<
+2021-02-13 01:31:52 info: --------------------------------------
+2021-02-13 01:31:58 error: *** Unit Test Error Report ***
+
+- wallet q2: What is in the Call Stack, from top to bottom?
+- wallet q3: What tooltip appears when hovering over the third debug button?
+- wallet q4: What is displayed in the console?
+- wallet q5: The owner of the wallet with insufficient funds is:
+
+2021-02-13 01:32:18 info: --------------------------------------
+2021-02-13 01:32:18 info: >>> Running Unit Test `ex5-wallet` <<<
+2021-02-13 01:32:18 info: --------------------------------------
+2021-02-13 01:32:24 error: *** Unit Test Error Report ***
+
+- wallet q2: What is in the Call Stack, from top to bottom?
+- wallet q3: What tooltip appears when hovering over the third debug button?
+- wallet q4: What is displayed in the console?
+- wallet q5: The owner of the wallet with insufficient funds is:
+
+2021-02-13 01:32:57 info: --------------------------------------
+2021-02-13 01:32:57 info: >>> Running Unit Test `ex5-wallet` <<<
+2021-02-13 01:32:57 info: --------------------------------------
+2021-02-13 01:33:03 error: *** Unit Test Error Report ***
+
+- wallet q2: What is in the Call Stack, from top to bottom?
+- wallet q3: What tooltip appears when hovering over the third debug button?
+- wallet q4: What is displayed in the console?
+- wallet q5: The owner of the wallet with insufficient funds is:
+
+2021-02-13 01:33:40 info: --------------------------------------
+2021-02-13 01:33:40 info: >>> Running Unit Test `ex5-wallet` <<<
+2021-02-13 01:33:40 info: --------------------------------------
+2021-02-13 01:33:47 error: *** Unit Test Error Report ***
+
+- wallet q2: What is in the Call Stack, from top to bottom?
+- wallet q3: What tooltip appears when hovering over the third debug button?
+- wallet q4: What is displayed in the console?
+- wallet q5: The owner of the wallet with insufficient funds is:
+
+2021-02-13 01:34:16 info: --------------------------------------
+2021-02-13 01:34:16 info: >>> Running Unit Test `ex5-wallet` <<<
+2021-02-13 01:34:16 info: --------------------------------------
+2021-02-13 01:34:22 error: *** Unit Test Error Report ***
+
+- wallet q3: What tooltip appears when hovering over the third debug button?
+- wallet q4: What is displayed in the console?
+- wallet q5: The owner of the wallet with insufficient funds is:
+
+2021-02-13 01:38:21 info: --------------------------------------
+2021-02-13 01:38:21 info: >>> Running Unit Test `ex5-wallet` <<<
+2021-02-13 01:38:21 info: --------------------------------------
+2021-02-13 01:38:27 error: *** Unit Test Error Report ***
+
+- wallet q3: What tooltip appears when hovering over the third debug button?
+- wallet q4: What is displayed in the console?
+- wallet q5: The owner of the wallet with insufficient funds is:
+
+2021-02-13 01:38:52 info: --------------------------------------
+2021-02-13 01:38:52 info: >>> Running Unit Test `ex5-wallet` <<<
+2021-02-13 01:38:52 info: --------------------------------------
+2021-02-13 01:38:58 error: *** Unit Test Error Report ***
+
+- wallet q3: What tooltip appears when hovering over the third debug button?
+- wallet q4: What is displayed in the console?
+- wallet q5: The owner of the wallet with insufficient funds is:
+
+2021-02-13 01:39:33 info: --------------------------------------
+2021-02-13 01:39:33 info: >>> Running Unit Test `ex5-wallet` <<<
+2021-02-13 01:39:33 info: --------------------------------------
+2021-02-13 01:39:39 error: *** Unit Test Error Report ***
+
+- wallet q3: What tooltip appears when hovering over the third debug button?
+- wallet q4: What is displayed in the console?
+- wallet q5: The owner of the wallet with insufficient funds is:
+
+2021-02-13 01:40:00 info: --------------------------------------
+2021-02-13 01:40:00 info: >>> Running Unit Test `ex5-wallet` <<<
+2021-02-13 01:40:00 info: --------------------------------------
+2021-02-13 01:40:06 error: *** Unit Test Error Report ***
+
+- wallet q3: What tooltip appears when hovering over the third debug button?
+- wallet q5: The owner of the wallet with insufficient funds is:
+
+2021-02-13 01:40:44 info: --------------------------------------
+2021-02-13 01:40:44 info: >>> Running Unit Test `ex5-wallet` <<<
+2021-02-13 01:40:44 info: --------------------------------------
+2021-02-13 01:40:50 error: *** Unit Test Error Report ***
+
+- wallet q3: What tooltip appears when hovering over the third debug button?
+
+2021-02-13 01:42:06 info: --------------------------------------
+2021-02-13 01:42:06 info: >>> Running Unit Test `ex5-wallet` <<<
+2021-02-13 01:42:06 info: --------------------------------------
+2021-02-13 01:42:12 info: All unit tests passed.
+2021-02-13 01:42:16 info: All steps were completed successfully

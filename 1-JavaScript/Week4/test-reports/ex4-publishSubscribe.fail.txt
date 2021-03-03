@@ -1,0 +1,6 @@
+
+*** Spell Checker Report ***
+
+ex4-publishSubscribe.js:82:10 - Unknown word (revresb)
+ex4-publishSubscribe.js:82:19 - Unknown word (desolc)
+ex4-publishSubscribe.js:82:30 - Unknown word (erawe)
