@@ -19,51 +19,51 @@
 //cspell: enable
 
 function createBookList(books) {
-  const bookDiv =document.querySelector("#bookList")
-  bookDiv.style.padding="20px"
-  // your code goes in here, return the ul element
-  books.forEach(element => {
-    const title=document.createElement("p")
-    const text=document.createTextNode( element.title+ ' '+element.author)
-    const list =document.createElement("li")
-    const unList =document.createElement("ul")
+  const unList =document.createElement("ul")
+  
+  for (const ele of books){
     const image =document.createElement("img")
-    if(element.author==="Don Norman"){
-    image.src = "assets/the_design_of_everyday_things.jpg"
-    image.alt="the design of every things"
-    bookDiv.appendChild(image)
-    }else if (element.alreadyRead) {
-      unList.style.backgroundColor="green"
-    }else{
-      unList.style.backgroundColor="red"
-    }
-    if(element.author==="Brian Christian"){
-      image.src = "assets/the_most_human_human.jpg"
-      image.alt="the most human human"
-      bookDiv.appendChild(image)
-    }else if (element.alreadyRead) {
-      unList.style.backgroundColor="green"
-    }else{
-      unList.style.backgroundColor="red"
-    }
-    if(element.author==="Andrew Hunt"){
-      image.src = "assets/the_pragmatic_programmer.jpg"
-      image.alt ="the pragmatic programmer"
-      bookDiv.appendChild(image)
-    }else if (element.alreadyRead) {
-      unList.style.backgroundColor="green"
-    }else{
-      unList.style.backgroundColor="red"
-    }
-    list.appendChild(title)
-    unList.appendChild(list)
-    title.appendChild(text)
-    unList.style.display="inline-grid"
-    unList.style.margin="10px"
-document.body.appendChild(unList)
-   } )
+    const list =document.createElement("li")
+    const text=document.createTextNode( ele.title+ ' '+ele.author)
+    const title=document.createElement("p")
+    if(ele.author==="Don Norman"){
+      image.src = "assets/the_design_of_everyday_things.jpg"
+      image.alt="the design of every things"
+      list.appendChild(image)
+      }if (ele.alreadyRead) {
+        list.style.backgroundColor="green"
+      }else{
+        list.style.backgroundColor="red"
+      }
+      if(ele.author==="Brian Christian"){
+        image.src = "assets/the_most_human_human.jpg"
+        image.alt="the most human human"
+        list.appendChild(image)
+      } if (ele.alreadyRead) {
+        list.style.backgroundColor="green"
+      }else{
+        list.style.backgroundColor="red"
+      }if(ele.author==="Andrew Hunt"){
+        image.src = "assets/the_pragmatic_programmer.jpg"
+        image.alt ="the pragmatic programmer"
+        list.appendChild(image)
+      }
+      if (ele.alreadyRead) {
+        list.style.backgroundColor="green"
+      }else{
+        list.style.backgroundColor="red"
+      }
+      title.appendChild(text)
+      list.appendChild(title)
+      unList.appendChild(list)
+      image.style.width="200px"
+  }
+  unList.style.display="flex"
+  unList.style.justifyContent="space-around"
+  unList.style.listStyle="none"
+ 
+  return unList 
 }
-
 const myBooks = [
   {
     title: 'The Design of Everyday Things',
@@ -81,6 +81,11 @@ const myBooks = [
     alreadyRead: true,
   },
 ];
+const ulElement=createBookList(myBooks);
 
-createBookList(myBooks);
+document.querySelector('#bookList').appendChild(ulElement);
+
+
+
+
 

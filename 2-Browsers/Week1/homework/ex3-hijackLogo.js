@@ -7,7 +7,7 @@
 ------------------------------------------------------------------------------*/
 function hijackGoogleLogo() {
   // TODO your code goes in here
- const googlelogo= document.querySelector('#logo')
+ const googlelogo= document.querySelector('.lnXdpd')
  googlelogo.src="https://www.hackyourfuture.dk/static/logo-dark.svg"
  googlelogo.srcset="https://www.hackyourfuture.dk/static/logo-dark.svg 480w,https://www.hackyourfuture.dk/static/logo-dark.svg 500w"
 }
