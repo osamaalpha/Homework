@@ -1,0 +1,6 @@
+
+*** Spell Checker Report ***
+
+ex3-hijackLogo.js:10:8 - Unknown word (googlelogo)
+ex3-hijackLogo.js:11:2 - Unknown word (googlelogo)
+ex3-hijackLogo.js:12:2 - Unknown word (googlelogo)

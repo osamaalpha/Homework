@@ -19,9 +19,51 @@
 //cspell: enable
 
 function createBookList(books) {
-  // your code goes in here, return the ul element
+  const unList =document.createElement("ul")
+  
+  for (const ele of books){
+    const image =document.createElement("img")
+    const list =document.createElement("li")
+    const text=document.createTextNode( ele.title+ ' '+ele.author)
+    const title=document.createElement("p")
+    if(ele.author==="Don Norman"){
+      image.src = "assets/the_design_of_everyday_things.jpg"
+      image.alt="the design of every things"
+      list.appendChild(image)
+      }if (ele.alreadyRead) {
+        list.style.backgroundColor="green"
+      }else{
+        list.style.backgroundColor="red"
+      }
+      if(ele.author==="Brian Christian"){
+        image.src = "assets/the_most_human_human.jpg"
+        image.alt="the most human human"
+        list.appendChild(image)
+      } if (ele.alreadyRead) {
+        list.style.backgroundColor="green"
+      }else{
+        list.style.backgroundColor="red"
+      }if(ele.author==="Andrew Hunt"){
+        image.src = "assets/the_pragmatic_programmer.jpg"
+        image.alt ="the pragmatic programmer"
+        list.appendChild(image)
+      }
+      if (ele.alreadyRead) {
+        list.style.backgroundColor="green"
+      }else{
+        list.style.backgroundColor="red"
+      }
+      title.appendChild(text)
+      list.appendChild(title)
+      unList.appendChild(list)
+      image.style.width="200px"
+  }
+  unList.style.display="flex"
+  unList.style.justifyContent="space-around"
+  unList.style.listStyle="none"
+ 
+  return unList 
 }
-
 const myBooks = [
   {
     title: 'The Design of Everyday Things',
@@ -39,7 +81,11 @@ const myBooks = [
     alreadyRead: true,
   },
 ];
+const ulElement=createBookList(myBooks);
 
-const ulElement = createBookList(myBooks);
+document.querySelector('#bookList').appendChild(ulElement);
 
-// document.querySelector('#bookList').appendChild(ulElement);
+
+
+
+
