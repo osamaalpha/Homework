@@ -1,0 +1,299 @@
+2021-03-20 10:58:54 info: ---------------------------------------
+2021-03-20 10:58:54 info: >>> Running Unit Test `ex1-johnWho` <<<
+2021-03-20 10:58:54 info: ---------------------------------------
+2021-03-20 10:59:33 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex1-johnWho --silent false --verbose false --reporters="C:\users\osama\osamaalpha\Homework\test-runner\CustomReporter.js"
+Error: expect(received).rejects.toBeInstanceOf()
+
+Received promise resolved instead of rejected
+Resolved to value: "undefined Doe"
+    at expect (C:\Users\osama\osamaalpha\Homework\node_modules\expect\build\index.js:134:15)
+    at Object.<anonymous> (C:\Users\osama\osamaalpha\Homework\3-UsingAPIs\Week1\unit-tests\ex1-johnWho.test.js:62:12)
+    at Object.asyncJestTest (C:\Users\osama\osamaalpha\Homework\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:106:37)
+    at C:\Users\osama\osamaalpha\Homework\node_modules\jest-jasmine2\build\queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (C:\Users\osama\osamaalpha\Homework\node_modules\jest-jasmine2\build\queueRunner.js:28:19)
+    at C:\Users\osama\osamaalpha\Homework\node_modules\jest-jasmine2\build\queueRunner.js:75:41
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+
+2021-03-20 11:02:35 info: ---------------------------------------
+2021-03-20 11:02:35 info: >>> Running Unit Test `ex1-johnWho` <<<
+2021-03-20 11:02:35 info: ---------------------------------------
+2021-03-20 11:02:42 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex1-johnWho --silent false --verbose false --reporters="C:\users\osama\osamaalpha\Homework\test-runner\CustomReporter.js"
+Error: expect(received).rejects.toBeInstanceOf()
+
+Received promise resolved instead of rejected
+Resolved to value: "undefined Doe"
+    at expect (C:\Users\osama\osamaalpha\Homework\node_modules\expect\build\index.js:134:15)
+    at Object.<anonymous> (C:\Users\osama\osamaalpha\Homework\3-UsingAPIs\Week1\unit-tests\ex1-johnWho.test.js:62:12)
+    at Object.asyncJestTest (C:\Users\osama\osamaalpha\Homework\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:106:37)
+    at C:\Users\osama\osamaalpha\Homework\node_modules\jest-jasmine2\build\queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (C:\Users\osama\osamaalpha\Homework\node_modules\jest-jasmine2\build\queueRunner.js:28:19)
+    at C:\Users\osama\osamaalpha\Homework\node_modules\jest-jasmine2\build\queueRunner.js:75:41
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+
+2021-03-20 11:04:31 info: ---------------------------------------
+2021-03-20 11:04:31 info: >>> Running Unit Test `ex1-johnWho` <<<
+2021-03-20 11:04:31 info: ---------------------------------------
+2021-03-20 11:04:55 error: *** Unit Test Error Report ***
+
+- getAnonName should return a rejected promise when called without an argument
+
+2021-03-20 11:07:32 info: ---------------------------------------
+2021-03-20 11:07:32 info: >>> Running Unit Test `ex1-johnWho` <<<
+2021-03-20 11:07:32 info: ---------------------------------------
+2021-03-20 11:07:37 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex1-johnWho --silent false --verbose false --reporters="C:\users\osama\osamaalpha\Homework\test-runner\CustomReporter.js"
+(node:10644) UnhandledPromiseRejectionWarning: ReferenceError: Cannot access 'fullName' before initialization
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:10644) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:10644) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+Error: expect(received).resolves.toEqual()
+
+Received promise rejected instead of resolved
+Rejected to value: [ReferenceError: Cannot access 'fullName' before initialization]
+    at expect (C:\Users\osama\osamaalpha\Homework\node_modules\expect\build\index.js:134:15)
+    at Object.<anonymous> (C:\Users\osama\osamaalpha\Homework\3-UsingAPIs\Week1\unit-tests\ex1-johnWho.test.js:54:12)
+    at Object.asyncJestTest (C:\Users\osama\osamaalpha\Homework\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:106:37)
+    at C:\Users\osama\osamaalpha\Homework\node_modules\jest-jasmine2\build\queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (C:\Users\osama\osamaalpha\Homework\node_modules\jest-jasmine2\build\queueRunner.js:28:19)
+    at C:\Users\osama\osamaalpha\Homework\node_modules\jest-jasmine2\build\queueRunner.js:75:41
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+
+2021-03-20 11:08:14 info: ---------------------------------------
+2021-03-20 11:08:14 info: >>> Running Unit Test `ex1-johnWho` <<<
+2021-03-20 11:08:14 info: ---------------------------------------
+2021-03-20 11:08:19 error: *** Unit Test Error Report ***
+
+- getAnonName should return a rejected promise when called without an argument
+
+2021-03-20 11:09:20 info: ---------------------------------------
+2021-03-20 11:09:20 info: >>> Running Unit Test `ex1-johnWho` <<<
+2021-03-20 11:09:20 info: ---------------------------------------
+2021-03-20 11:09:26 error: *** Unit Test Error Report ***
+
+- getAnonName should return a rejected promise when called without an argument
+
+2021-03-20 11:11:02 info: ---------------------------------------
+2021-03-20 11:11:02 info: >>> Running Unit Test `ex1-johnWho` <<<
+2021-03-20 11:11:02 info: ---------------------------------------
+2021-03-20 11:11:07 error: *** Unit Test Error Report ***
+
+- getAnonName should return a rejected promise when called without an argument
+
+2021-03-20 11:11:13 error: *** Spell Checker Report ***
+
+ex1-johnWho.js:14:19 - Unknown word (didnt)
+
+2021-03-20 11:13:03 info: ---------------------------------------
+2021-03-20 11:13:03 info: >>> Running Unit Test `ex1-johnWho` <<<
+2021-03-20 11:13:03 info: ---------------------------------------
+2021-03-20 11:13:09 error: *** Unit Test Error Report ***
+
+- getAnonName should return a resolved promise when called with a string argument
+  Expected: John Doe
+  Received: JohnDoe
+- getAnonName should return a rejected promise when called without an argument
+
+2021-03-20 11:14:46 info: ---------------------------------------
+2021-03-20 11:14:46 info: >>> Running Unit Test `ex1-johnWho` <<<
+2021-03-20 11:14:46 info: ---------------------------------------
+2021-03-20 11:14:52 error: *** Unit Test Error Report ***
+
+- getAnonName should return a rejected promise when called without an argument
+
+2021-03-20 11:17:50 info: ---------------------------------------
+2021-03-20 11:17:50 info: >>> Running Unit Test `ex1-johnWho` <<<
+2021-03-20 11:17:50 info: ---------------------------------------
+2021-03-20 11:17:57 error: *** Unit Test Error Report ***
+
+spawnSync C:\WINDOWS\system32\cmd.exe ENOBUFS
+2021-03-20 11:20:58 info: ---------------------------------------
+2021-03-20 11:20:58 info: >>> Running Unit Test `ex1-johnWho` <<<
+2021-03-20 11:20:58 info: ---------------------------------------
+2021-03-20 11:21:04 error: *** Unit Test Error Report ***
+
+- getAnonName should return a rejected promise when called without an argument
+
+2021-03-20 11:24:56 info: ---------------------------------------
+2021-03-20 11:24:56 info: >>> Running Unit Test `ex1-johnWho` <<<
+2021-03-20 11:24:56 info: ---------------------------------------
+2021-03-20 11:25:02 error: *** Unit Test Error Report ***
+
+- getAnonName should return a rejected promise when called without an argument
+
+2021-03-20 11:27:01 info: ---------------------------------------
+2021-03-20 11:27:01 info: >>> Running Unit Test `ex1-johnWho` <<<
+2021-03-20 11:27:01 info: ---------------------------------------
+2021-03-20 11:27:07 error: *** Unit Test Error Report ***
+
+- getAnonName should return a rejected promise when called without an argument
+
+2021-03-20 11:31:25 info: ---------------------------------------
+2021-03-20 11:31:25 info: >>> Running Unit Test `ex1-johnWho` <<<
+2021-03-20 11:31:25 info: ---------------------------------------
+2021-03-20 11:31:31 error: *** Unit Test Error Report ***
+
+- getAnonName should return a rejected promise when called without an argument
+
+2021-03-20 11:32:24 info: ---------------------------------------
+2021-03-20 11:32:24 info: >>> Running Unit Test `ex1-johnWho` <<<
+2021-03-20 11:32:24 info: ---------------------------------------
+2021-03-20 11:32:30 error: *** Unit Test Error Report ***
+
+- getAnonName should return a rejected promise when called without an argument
+
+2021-03-20 11:33:33 info: ---------------------------------------
+2021-03-20 11:33:33 info: >>> Running Unit Test `ex1-johnWho` <<<
+2021-03-20 11:33:33 info: ---------------------------------------
+2021-03-20 11:33:39 error: *** Unit Test Error Report ***
+
+- getAnonName should return a rejected promise when called without an argument
+
+2021-03-20 11:37:49 info: ---------------------------------------
+2021-03-20 11:37:49 info: >>> Running Unit Test `ex1-johnWho` <<<
+2021-03-20 11:37:49 info: ---------------------------------------
+2021-03-20 11:37:55 info: All unit tests passed.
+2021-03-20 11:38:00 info: All steps were completed successfully
+2021-03-20 11:45:17 info: ---------------------------------------
+2021-03-20 11:45:17 info: >>> Running Unit Test `ex1-johnWho` <<<
+2021-03-20 11:45:17 info: ---------------------------------------
+2021-03-20 11:45:22 info: All unit tests passed.
+2021-03-20 11:45:27 info: All steps were completed successfully
+2021-03-20 11:45:54 info: -------------------------------------------------
+2021-03-20 11:45:54 info: >>> Running Unit Test `ex2-checkDoubleDigits` <<<
+2021-03-20 11:45:54 info: -------------------------------------------------
+2021-03-20 11:46:10 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex2-checkDoubleDigits --silent false --verbose false --reporters="C:\users\osama\osamaalpha\Homework\test-runner\CustomReporter.js"
+Timeout - Async callback was not invoked within the 5000 ms timeout specified by jest.setTimeout.Error: 
+    at new Spec (C:\Users\osama\osamaalpha\Homework\node_modules\jest-jasmine2\build\jasmine\Spec.js:116:22)
+    at new Spec (C:\Users\osama\osamaalpha\Homework\node_modules\jest-jasmine2\build\setup_jest_globals.js:78:9)
+    at specFactory (C:\Users\osama\osamaalpha\Homework\node_modules\jest-jasmine2\build\jasmine\Env.js:523:24)
+    at Env.it (C:\Users\osama\osamaalpha\Homework\node_modules\jest-jasmine2\build\jasmine\Env.js:592:24)
+    at Env.it (C:\Users\osama\osamaalpha\Homework\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:134:23)
+    at it (C:\Users\osama\osamaalpha\Homework\node_modules\jest-jasmine2\build\jasmine\jasmineLight.js:100:21)
+    at Suite.<anonymous> (C:\Users\osama\osamaalpha\Homework\3-UsingAPIs\Week1\unit-tests\ex2-checkDoubleDigits.test.js:55:3)
+    at addSpecsToSuite (C:\Users\osama\osamaalpha\Homework\node_modules\jest-jasmine2\build\jasmine\Env.js:444:51)
+    at Env.describe (C:\Users\osama\osamaalpha\Homework\node_modules\jest-jasmine2\build\jasmine\Env.js:414:11)
+    at describe (C:\Users\osama\osamaalpha\Homework\node_modules\jest-jasmine2\build\jasmine\jasmineLight.js:88:18)
+    at Object.<anonymous> (C:\Users\osama\osamaalpha\Homework\3-UsingAPIs\Week1\unit-tests\ex2-checkDoubleDigits.test.js:8:1)
+    at Runtime._execModule (C:\Users\osama\osamaalpha\Homework\node_modules\jest-runtime\build\index.js:1299:24)
+    at Runtime._loadModule (C:\Users\osama\osamaalpha\Homework\node_modules\jest-runtime\build\index.js:898:12)
+    at Runtime.requireModule (C:\Users\osama\osamaalpha\Homework\node_modules\jest-runtime\build\index.js:746:10)
+    at jasmine2 (C:\Users\osama\osamaalpha\Homework\node_modules\jest-jasmine2\build\index.js:230:13)
+    at runTestInternal (C:\Users\osama\osamaalpha\Homework\node_modules\jest-runner\build\runTest.js:380:22)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runTest (C:\Users\osama\osamaalpha\Homework\node_modules\jest-runner\build\runTest.js:472:34)
+
+2021-03-20 11:46:13 error: *** ESLint Report ***
+
+ex2-checkDoubleDigits.js
+  15:31  error  'reject' is defined but never used  no-unused-vars
+
+✖ 1 problem (1 error, 0 warnings)
+
+
+2021-03-20 11:48:11 info: -------------------------------------------------
+2021-03-20 11:48:11 info: >>> Running Unit Test `ex2-checkDoubleDigits` <<<
+2021-03-20 11:48:11 info: -------------------------------------------------
+2021-03-20 11:48:26 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex2-checkDoubleDigits --silent false --verbose false --reporters="C:\users\osama\osamaalpha\Homework\test-runner\CustomReporter.js"
+Timeout - Async callback was not invoked within the 5000 ms timeout specified by jest.setTimeout.Error: 
+    at new Spec (C:\Users\osama\osamaalpha\Homework\node_modules\jest-jasmine2\build\jasmine\Spec.js:116:22)
+    at new Spec (C:\Users\osama\osamaalpha\Homework\node_modules\jest-jasmine2\build\setup_jest_globals.js:78:9)
+    at specFactory (C:\Users\osama\osamaalpha\Homework\node_modules\jest-jasmine2\build\jasmine\Env.js:523:24)
+    at Env.it (C:\Users\osama\osamaalpha\Homework\node_modules\jest-jasmine2\build\jasmine\Env.js:592:24)
+    at Env.it (C:\Users\osama\osamaalpha\Homework\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:134:23)
+    at it (C:\Users\osama\osamaalpha\Homework\node_modules\jest-jasmine2\build\jasmine\jasmineLight.js:100:21)
+    at Suite.<anonymous> (C:\Users\osama\osamaalpha\Homework\3-UsingAPIs\Week1\unit-tests\ex2-checkDoubleDigits.test.js:55:3)
+    at addSpecsToSuite (C:\Users\osama\osamaalpha\Homework\node_modules\jest-jasmine2\build\jasmine\Env.js:444:51)
+    at Env.describe (C:\Users\osama\osamaalpha\Homework\node_modules\jest-jasmine2\build\jasmine\Env.js:414:11)
+    at describe (C:\Users\osama\osamaalpha\Homework\node_modules\jest-jasmine2\build\jasmine\jasmineLight.js:88:18)
+    at Object.<anonymous> (C:\Users\osama\osamaalpha\Homework\3-UsingAPIs\Week1\unit-tests\ex2-checkDoubleDigits.test.js:8:1)
+    at Runtime._execModule (C:\Users\osama\osamaalpha\Homework\node_modules\jest-runtime\build\index.js:1299:24)
+    at Runtime._loadModule (C:\Users\osama\osamaalpha\Homework\node_modules\jest-runtime\build\index.js:898:12)
+    at Runtime.requireModule (C:\Users\osama\osamaalpha\Homework\node_modules\jest-runtime\build\index.js:746:10)
+    at jasmine2 (C:\Users\osama\osamaalpha\Homework\node_modules\jest-jasmine2\build\index.js:230:13)
+    at runTestInternal (C:\Users\osama\osamaalpha\Homework\node_modules\jest-runner\build\runTest.js:380:22)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runTest (C:\Users\osama\osamaalpha\Homework\node_modules\jest-runner\build\runTest.js:472:34)
+
+2021-03-20 11:48:46 info: -------------------------------------------------
+2021-03-20 11:48:46 info: >>> Running Unit Test `ex2-checkDoubleDigits` <<<
+2021-03-20 11:48:46 info: -------------------------------------------------
+2021-03-20 11:48:52 info: All unit tests passed.
+2021-03-20 11:48:57 info: All steps were completed successfully
+2021-03-20 12:09:21 info: ----------------------------------------
+2021-03-20 12:09:21 info: >>> Running Unit Test `ex3-rollDice` <<<
+2021-03-20 12:09:21 info: ----------------------------------------
+2021-03-20 12:09:27 info: All unit tests passed.
+2021-03-20 12:09:32 info: All steps were completed successfully
+2021-03-21 11:04:54 info: --------------------------------------------
+2021-03-21 11:04:54 info: >>> Running Unit Test `ex4-pokerDiceAll` <<<
+2021-03-21 11:04:54 info: --------------------------------------------
+2021-03-21 11:05:05 info: All unit tests passed.
+2021-03-21 11:05:16 info: All steps were completed successfully
+2021-03-21 11:07:50 info: --------------------------------------------
+2021-03-21 11:07:50 info: >>> Running Unit Test `ex4-pokerDiceAll` <<<
+2021-03-21 11:07:50 info: --------------------------------------------
+2021-03-21 11:07:56 info: All unit tests passed.
+2021-03-21 11:08:01 info: All steps were completed successfully
+2021-03-21 11:08:25 info: --------------------------------------------
+2021-03-21 11:08:25 info: >>> Running Unit Test `ex4-pokerDiceAll` <<<
+2021-03-21 11:08:25 info: --------------------------------------------
+2021-03-21 11:08:31 info: All unit tests passed.
+2021-03-21 11:08:34 error: *** ESLint Report ***
+
+ex4-pokerDiceAll.js
+  22:32  error  'reject' is defined but never used  no-unused-vars
+
+✖ 1 problem (1 error, 0 warnings)
+
+
+2021-03-21 11:09:22 info: --------------------------------------------
+2021-03-21 11:09:22 info: >>> Running Unit Test `ex4-pokerDiceAll` <<<
+2021-03-21 11:09:22 info: --------------------------------------------
+2021-03-21 11:09:28 info: All unit tests passed.
+2021-03-21 11:09:33 info: All steps were completed successfully
+2021-03-21 11:11:04 info: --------------------------------------------
+2021-03-21 11:11:04 info: >>> Running Unit Test `ex4-pokerDiceAll` <<<
+2021-03-21 11:11:04 info: --------------------------------------------
+2021-03-21 11:11:10 info: All unit tests passed.
+2021-03-21 11:11:16 info: All steps were completed successfully
+2021-03-21 11:29:04 info: --------------------------------------------
+2021-03-21 11:29:04 info: >>> Running Unit Test `ex4-pokerDiceAll` <<<
+2021-03-21 11:29:04 info: --------------------------------------------
+2021-03-21 11:29:09 error: *** Unit Test Error Report ***
+
+- rollTheDices should use `Promise.all()`
+
+2021-03-21 11:29:12 error: *** ESLint Report ***
+
+ex4-pokerDiceAll.js
+  22:24  error  'resolve' is defined but never used         no-unused-vars
+  22:32  error  'reject' is defined but never used          no-unused-vars
+  23:11  error  'dices' is assigned a value but never used  no-unused-vars
+
+✖ 3 problems (3 errors, 0 warnings)
+
+
+2021-03-22 01:21:08 info: --------------------------------------------
+2021-03-22 01:21:08 info: >>> Running Unit Test `ex4-pokerDiceAll` <<<
+2021-03-22 01:21:08 info: --------------------------------------------
+2021-03-22 01:21:14 info: All unit tests passed.
+2021-03-22 01:21:17 error: *** ESLint Report ***
+
+ex4-pokerDiceAll.js
+  22:32  error  'reject' is defined but never used  no-unused-vars
+
+✖ 1 problem (1 error, 0 warnings)
+
+
