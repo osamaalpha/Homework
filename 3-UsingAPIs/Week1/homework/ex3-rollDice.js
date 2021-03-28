@@ -30,7 +30,7 @@ function rollDice() {
     // Use callback to communicate the final dice value once finished rolling
     if (roll === randomRollsToDo) {
       // TODO replace "success" callback
-      resolve(null, value);
+      resolve(value);
     }
 
     // Schedule the next roll todo until no more rolls to do

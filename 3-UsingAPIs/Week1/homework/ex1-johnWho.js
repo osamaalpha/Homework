@@ -17,7 +17,7 @@ const getAnonName = (firstName) => {
     }
   })
 };
-getAnonName('John');
+getAnonName('John',console.log);
 
 // ! Do not change or remove the code below
 module.exports = getAnonName;

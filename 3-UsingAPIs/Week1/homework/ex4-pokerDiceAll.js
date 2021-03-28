@@ -19,13 +19,9 @@ const rollDice = require('../../helpers/pokerDiceRoller');
 
 function rollTheDices() {
   // TODO Refactor this function
-  return new Promise((resolve)=>{
-    const dices = [1, 2, 3, 4, 5];
-    const newArray=dices.map(el => rollDice(el))
-    const allPromises = Promise.all(newArray)
-    resolve(allPromises)
-  })
-    
+  const dices = [1, 2, 3, 4, 5];
+
+   return Promise.all(dices.map(el => rollDice(el))) 
   
   
 }
@@ -37,4 +33,4 @@ rollTheDices()
 // ! Do not change or remove the code below
 module.export = rollTheDices;
 //Answer: Using Promise all will reject if one of the promises (dices) got out of the table but 
-//all promises have to finish their bending process so they roll even after the reject
+//all promises have to finish their pending process so they roll even after the reject
