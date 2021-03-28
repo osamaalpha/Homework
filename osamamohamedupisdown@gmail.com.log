@@ -1,0 +1,61 @@
+2021-03-25 10:43:50 info: ---------------------------------------------
+2021-03-25 10:43:50 info: >>> Running Unit Test `ex1-programmerFun` <<<
+2021-03-25 10:43:50 info: ---------------------------------------------
+2021-03-25 10:44:44 info: All unit tests passed.
+2021-03-25 10:44:48 error: *** ESLint Report ***
+
+ex1-programmerFun/index.js
+  52:7  warning  Remove commented-out code  hyf/no-commented-out-code
+
+✖ 1 problem (0 errors, 1 warning)
+
+
+2021-03-25 10:46:09 info: ---------------------------------------------
+2021-03-25 10:46:09 info: >>> Running Unit Test `ex1-programmerFun` <<<
+2021-03-25 10:46:09 info: ---------------------------------------------
+2021-03-25 10:46:20 info: All unit tests passed.
+2021-03-25 10:46:24 info: All steps were completed successfully
+2021-03-26 01:56:25 info: ------------------------------------------
+2021-03-26 01:56:25 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2021-03-26 01:56:25 info: ------------------------------------------
+2021-03-26 01:57:49 error: *** Unit Test Error Report ***
+
+- pokemonApp should use `await fetch()`
+- pokemonApp should use try/catch
+
+2021-03-26 02:05:50 info: ------------------------------------------
+2021-03-26 02:05:50 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2021-03-26 02:05:50 info: ------------------------------------------
+2021-03-26 02:06:02 info: All unit tests passed.
+2021-03-26 02:06:05 error: *** ESLint Report ***
+
+ex2-pokemonApp/index.js
+  34:5  warning  Remove commented-out code  hyf/no-commented-out-code
+  38:5  warning  Remove commented-out code  hyf/no-commented-out-code
+
+✖ 2 problems (0 errors, 2 warnings)
+
+
+2021-03-26 02:06:30 info: ------------------------------------------
+2021-03-26 02:06:30 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2021-03-26 02:06:30 info: ------------------------------------------
+2021-03-26 02:06:42 info: All unit tests passed.
+2021-03-26 02:06:48 info: All steps were completed successfully
+2021-03-26 03:19:22 info: -----------------------------------------
+2021-03-26 03:19:22 info: >>> Running Unit Test `ex3-rollAnAce` <<<
+2021-03-26 03:19:22 info: -----------------------------------------
+2021-03-26 03:19:29 info: All unit tests passed.
+2021-03-26 03:19:32 error: *** ESLint Report ***
+
+ex3-rollAnAce.js
+  21:3  warning  Remove commented-out code  hyf/no-commented-out-code
+  43:2  warning  Remove commented-out code  hyf/no-commented-out-code
+
+✖ 2 problems (0 errors, 2 warnings)
+
+
+2021-03-26 03:35:13 info: ----------------------------------------
+2021-03-26 03:35:13 info: >>> Running Unit Test `ex4-diceRace` <<<
+2021-03-26 03:35:13 info: ----------------------------------------
+2021-03-26 03:35:20 info: All unit tests passed.
+2021-03-26 03:35:25 info: All steps were completed successfully
